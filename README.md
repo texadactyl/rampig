@@ -16,7 +16,7 @@ _NOTE: This program runs only on POSIX systems i.e. Linux, Unix, and MacOS (prob
 
 ### Command Line Execution
 
-`rampig {N}` # where {N} = the number of megabytes to allocate from the heap.
+`rampig {N}` # where `{N}` = the number of megabytes to allocate from the heap.
 
 If you want rampig to run in background, use the usual ampersand (&) at the end of the command line.
 
@@ -34,6 +34,8 @@ When `rampig` starts, it announces its process identifier (pid) like this:
 
 So, to force that particular process to exit, do this:
 `kill 42`
+
+Another method of killing rampig in background: `killall rampig`
 
 Then, you will see the following message followed by program exit to the O/S:
 `rampig: Caught signal 15.`
