@@ -3,7 +3,7 @@ Allocate the requested RAM from the heap and sleep until a signal is received.  
 
 One parameter is required: the amount of memory is expressed in Megabytes (MB).
 
-_NOTE: This program only runs on POSIX systems i.e. Linux, Unix, and MacOS (probably)._
+_NOTE: This program runs only on POSIX systems i.e. Linux, Unix, and MacOS (probably)._
 
 ### Build Dependencies
 
