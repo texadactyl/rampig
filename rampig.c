@@ -114,5 +114,5 @@ int main(int argc, char **argv) {
     
     // Loop
     while(1)
-        sleep(4);
+        sleep(3);
 }
