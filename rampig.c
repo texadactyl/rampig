@@ -52,6 +52,7 @@ void sig_handler(int arg_signo) {
     byebye(0);
 }
 
+
 /***
     Set up signal catcher for the given signal
 ***/
@@ -59,6 +60,7 @@ void sig_setup_catcher(int arg_signo) {
     if (signal(arg_signo, sig_handler) == SIG_ERR)
         oops("Could not set up to catch %d.", arg_signo);
 }
+
 
 /***
     Is a string all digits?
