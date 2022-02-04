@@ -95,7 +95,7 @@ int main(int argc, char **argv) {
 
     // Announce
     pid = getpid();
-    printf("rampig: Hello, my process ID = %d.\n", pid);
+    printf("rampig: My process ID = %d.\n", pid);
 
     // Allocate the requested space
     mb = atoi(str_mb);
