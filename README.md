@@ -9,6 +9,7 @@ _NOTE: This program runs only on POSIX systems i.e. Linux, Unix, and MacOS (prob
 
 - `gcc`
 - MacOS: Xcode? Sorry, I am not a Mac user.
+- Windows: Probably not applicable.  I am not a Windows user.
 
 ### Build
 
